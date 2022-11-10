@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_all"
+    tools:context=".HardGame">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+
+        <ImageView
+
+            android:id="@+id/apple_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/apple_1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/apple_2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/apple_3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/apple_4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="5"
+            app:layout_constraintStart_toEndOf="@+id/apple_1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="6"
+            app:layout_constraintStart_toEndOf="@+id/apple_2"
+            app:layout_constraintTop_toBottomOf="@+id/apple_1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="7"
+            app:layout_constraintStart_toEndOf="@+id/apple_3"
+            app:layout_constraintTop_toBottomOf="@+id/apple_2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="8"
+            app:layout_constraintStart_toEndOf="@+id/apple_4"
+            app:layout_constraintTop_toBottomOf="@+id/apple_3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="9"
+            app:layout_constraintStart_toEndOf="@+id/apple_5"
+            app:layout_constraintTop_toBottomOf="@+id/apple_4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="10"
+            app:layout_constraintStart_toEndOf="@+id/apple_1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="11"
+            app:layout_constraintStart_toEndOf="@+id/apple_2"
+            app:layout_constraintTop_toBottomOf="@+id/apple_1"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/apple_13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="12"
+            app:layout_constraintStart_toEndOf="@+id/apple_3"
+            app:layout_constraintTop_toBottomOf="@+id/apple_2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="13"
+            app:layout_constraintStart_toEndOf="@+id/apple_4"
+            app:layout_constraintTop_toBottomOf="@+id/apple_3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="14"
+            app:layout_constraintStart_toEndOf="@+id/apple_5"
+            app:layout_constraintTop_toBottomOf="@+id/apple_4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="15"
+            app:layout_constraintStart_toEndOf="@+id/apple_1"
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_17"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="16"
+            app:layout_constraintStart_toEndOf="@+id/apple_2"
+            app:layout_constraintTop_toBottomOf="@+id/apple_1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_18"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="17"
+            app:layout_constraintStart_toEndOf="@+id/apple_3"
+            app:layout_constraintTop_toBottomOf="@+id/apple_2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_19"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="18"
+            app:layout_constraintStart_toEndOf="@+id/apple_4"
+            app:layout_constraintTop_toBottomOf="@+id/apple_3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/apple_20"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="cardClicked"
+            android:padding="20dp"
+            android:src="@drawable/apple"
+            android:tag="19"
+            app:layout_constraintStart_toEndOf="@+id/apple_5"
+            app:layout_constraintTop_toBottomOf="@+id/apple_4"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

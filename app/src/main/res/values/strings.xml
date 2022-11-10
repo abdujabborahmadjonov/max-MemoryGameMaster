@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">max Memory Game</string>
+    <string name="middle">Middle</string>
+    <string name="share">share</string>
+    <string name="about">about</string>
+    <string name="telegram">telegram</string>
+</resources>
